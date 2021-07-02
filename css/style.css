@@ -9,24 +9,10 @@ body{
     margin: 20px auto;
 }
 
-.violet-bg{
-    background-color: violet;
-}
-
-.gold-bg{
-    background-color: goldenrod;
-}
-
-.blue-bg{
-    background-color: blue;
-}
-
-.turquoise-bg{
-    background-color: darkturquoise;
-}
-
-.purple-bg{
-    background-color: purple;
+li{
+    display: inline-block;
+    margin: 0 10px;
+    color: rgb(179, 179, 179);
 }
 
 .top-part{
@@ -61,12 +47,27 @@ body{
   clear: both;
 }
 
+.img-col{
+    height: 200px;
+    border-radius: 10px;
+}
+
+#logo{
+
+    height: 75px;
+    border-right: 2px solid rgb(179, 179, 179) ;
+
+}
+
 #title{
     height: 90px;
     margin: 20px 0;
 }
 
 #first-part{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
     height: 300px;
     margin: 20px 0;
 }
