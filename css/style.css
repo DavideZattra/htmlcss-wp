@@ -35,10 +35,7 @@ a{
 }
 
 .jumbotron-box{
-    float: left;
     width: 60%;
-    margin: 30% 0 10px 40px ;
-
 }
 
 .top-part{
@@ -124,7 +121,7 @@ a{
 }
 
 #title{
-    height: 100px;
+   
     margin: 20px 0;
 }
 
@@ -135,6 +132,7 @@ a{
     border-radius: 10px;
     height: 500px;
     margin: 40px 0;
+    padding: 30% 0 0 30PX;
 }
 
 #main-part{
